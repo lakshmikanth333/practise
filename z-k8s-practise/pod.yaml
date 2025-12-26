@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: web-pod
+  namespace: expense13
+containers:
+- name: web
+  image: nginx
+
